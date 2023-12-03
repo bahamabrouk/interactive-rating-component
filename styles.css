@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(0, 0%, 100%);
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+}
+#main-component {
+  display: grid;
+  background-color: hsl(210, 24%, 13%);
+  height: 28rem;
+  width: 28rem;
+  margin: auto;
+  border-radius: 35px;
+  grid-template-columns: 28rem;
+  grid-template-rows: 6rem 4rem 6rem 6rem 6rem;
+}
+
+.star-icon {
+  background-color: hsl(217, 12%, 21%);
+  padding: 0.875rem;
+  border-radius: 100px;
+  margin: 2rem;
+  margin-left: 2.5rem;
+  margin-top: 3rem;
+  grid-row: 1;
+}
+.main-h1 {
+  grid-row: 2;
+  margin: auto;
+  margin-left: 2.5rem;
+  margin-top: 1.75rem;
+}
+
+.main-p {
+  color: hsl(217, 12%, 63%);
+  grid-row: 3;
+  margin-left: 2.5rem;
+  margin-top: 0.75rem;
+  width: 24rem;
+  line-height: 1.5rem;
+}
+
+.rating-number-section {
+  grid-row: 4;
+  margin: auto;
+  margin-left: 2.5rem;
+}
+.rate-button {
+  text-align: center;
+  font-size: 1.15rem;
+  text-decoration: none;
+  background-color: hsl(217, 12%, 21%);
+  padding: 0.96rem 1.275rem 0.86rem 1.275rem;
+  margin: 0.75rem;
+  border-radius: 20rem;
+  color: hsl(217, 12%, 63%);
+}
+.rate-button:hover {
+  background-color: hsl(25, 97%, 53%) !important;
+  color: hsl(0, 0%, 100%);
+}
+#rating-1 {
+  margin-left: 0;
+  padding-left: 1.42rem;
+  padding-right: 1.42rem;
+}
+
+.submit-button {
+  grid-row: 5;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  margin: auto;
+  background-color: hsl(25, 97%, 53%);
+  padding: 1rem 9rem 0.9rem 9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border-radius: 10rem;
+  margin-top: 0.75rem;
+}
+.submit-button:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+#thanks-component {
+  display: none;
+  background-color: hsl(210, 24%, 13%);
+  height: 28rem;
+  width: 28rem;
+  margin: auto;
+  border-radius: 35px;
+  grid-template-columns: 28rem;
+  grid-template-rows: 10rem 6rem 6rem 6rem;
+}
+
+.thanks-img {
+  margin: auto;
+  margin-bottom: -0.25rem;
+}
+
+.selected-p {
+  margin: auto;
+  padding: 0.5rem 1rem 0.35rem 1rem;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(217, 12%, 21%);
+  border-radius: 100rem;
+  opacity: 0.8;
+  margin-top: 2.5rem;
+}
+
+.thanks-h1 {
+  margin: auto;
+  margin-top: 1rem;
+}
+.thanks-p {
+  margin: auto;
+  text-align: center;
+  width: 22.5rem;
+  color: hsl(217, 12%, 63%);
+  margin-top: -1.5rem;
+}
+.credit {
+  margin: auto;
+}
+.credit a {
+  color: steelblue;
+}
+@media all and (max-width: 475px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media all and (max-width: 390px) {
+  html {
+    font-size: 12px;
+  }
+}
