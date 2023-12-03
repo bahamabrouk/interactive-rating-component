@@ -1,2 +1,3 @@
 # interactive-rating-component
-![alt text](mobile-thank-you-state.jpg, mobile-design.jpg)
+![alt text](mobile-design.jpg)
+![alt text](mobile-thank-you-state.jpg)
